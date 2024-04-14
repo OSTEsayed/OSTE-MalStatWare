@@ -1,6 +1,7 @@
 # OSTE-MalStatWare
+<div style="text-align: center;">
 <img src="MalStatWare.png" alt="MalStatWare Logo" width="50%" height="50%">
-
+</div>
 
 # MalStatWare
 MalStatWare automates malware analysis with Python. Extract key details like file size, type, hash, path, and digital signature. It analyzes headers, APIs, and strings, giving quick insights for threat detection. Soon adding features like searching for the existence of any IOC in your system or the path you chose to scan.
