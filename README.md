@@ -1,5 +1,5 @@
 # OSTE-MalStatWare
-![MalStatWare Logo](MalStatWare.png)
+<img src="MalStatWare.png" alt="MalStatWare Logo" width="50%" height="50%">
 
 
 # MalStatWare
