@@ -33,7 +33,7 @@ MalStatWare automates malware analysis with Python. Extract key details like fil
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/MalStatWare.git
+git clone https://github.com/OSTEsayed/OSTE-MalStatWare
 ```
 - Other Installation Methods Coming Soon
 ## Usage
