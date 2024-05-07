@@ -17,13 +17,22 @@ MalStatWare automates malware analysis with Python. Extract key details like fil
 ## Features
 
 - Extracting static information such as:
-  - Real extension
-  - Name
-  - Size
-  - SHA-1
-  - SHA-256
-  - MD5
+  - File Creation
+  - File modification 
+  - File Acess 
+  - File Size (Bytes)
+  - File Extension 
+  - File SHA-1 
+  - File SHA-256 
+  - File MD5 
+  - File Blake2b 
+  - File Entropy 
+  - File is executable or NO . 
+
+- PE Header Analysis:
+
 - Searching for the Existing of the file in chosen directory or all the system.
+
 ## Installation
 
 ### Requirements
@@ -41,8 +50,17 @@ usage: MalStatWare-cli.py [-h] [-f FILE] [-i INFO]
 
 MetaStatWare-cli [Action] [option] [value] /n exampl MetaStatWare-cli -f file.text -i all
 
-Example : python3 MalStatWare-cli.py -f MalStatWare.png -i all
-Example :  python3 MalStatWare-cli.py -f MalStatWare.png -s ~/home/DirectoryToSearchIN -i all
+- Example : python3 MalStatWare-cli.py -f MalStatWare.png -i all
+
+- Example :  python3 MalStatWare-cli.py -f MalStatWare.png -s ~/home/DirectoryToSearchIN -i all
+
+- options:
+ -  -h, --help            show this help message and exit
+ -  -f FILE, --file FILE  Specify the file path Example : directoy/exampl.txt
+ -  -i INFO, --info INFO  Gather file information [ALL,SHA-1,SHA-256,MD5,SIZE,TYPE] Default==ALL
+ -  -s SEARCH, --search SEARCH
+                        Search if the file exist in chosen directory Example: /home/directoryToSearchIn/
+ - -pe, --pefile         Perform Basic PE header analysis.
 
 ## Contributing
 
